@@ -20,21 +20,25 @@ function Appz() {
       <hr />
 
       <Post
-        title="Título da notícia 01"
-        subtitle="subtítulo da notícia 01"
+        post={{
+          title: 'Titulo da notícia 01',
+          subtitle: 'Subtítulo da notícia 01'
+        }}
       />
       <Post
-        title="Título da notícia 02"
-        subtitle="subtítulo da notícia 02"
+        post={{
+          title: 'Titulo da notícia 02',
+          subtitle: 'Subtítulo da notícia 02'
+        }}
       />
       <Post
-        title="Título da notícia 03"
-        subtitle="subtítulo da notícia 03"
-      />
-      <Post
-        title="Título da notícia 04"
-        subtitle="subtítulo da notícia 04"
+        post={{
+          title: 'Titulo da notícia 03',
+          subtitle: 'Subtítulo da notícia 03'
+        }}
       />
     </>
+
+
   )
 }
